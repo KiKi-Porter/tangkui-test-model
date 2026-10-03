@@ -1,0 +1,11 @@
+__pycache__
+.conda-env/
+apo2mol_dataset/data_folder/
+apo2mol_dataset/hf_download/
+apo2mol_dataset/*.lmdb*
+outputs/
+wandb/
+sampled_results/
+tmp/
+eval_results/
+.DS_Store

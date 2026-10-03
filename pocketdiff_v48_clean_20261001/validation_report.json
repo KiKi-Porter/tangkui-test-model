@@ -1,0 +1,22 @@
+{
+  "release_root": "/data/Model_coding/PocketDiff/pocketdiff_v48_clean_20261001",
+  "cache": "/data/Model_coding/PocketDiff/pocketdiff_v48_clean_20261001/data/prepared_diffusion_full_v47.pt",
+  "checkpoint": "/data/Model_coding/PocketDiff/pocketdiff_v48_clean_20261001/runs/v48_full_dataset_epoch_equiv_20260930/checkpoint_best.pt",
+  "cache_counts": {
+    "train": 20195,
+    "valid": 985,
+    "test": 450
+  },
+  "cache_hash": "33d94d4f8007648e20f787c1e416c15f510f3638f685210ba5cff5697405be92",
+  "checkpoint_format": "pocketdiff-diffusion-v48-directed-backbone",
+  "encoder_backend": "targetdiff",
+  "architecture_variant": "v47",
+  "prediction_type": "bridge_velocity",
+  "model_forward_finite": true,
+  "se3_update_finite": true,
+  "se3_update_changed_coordinates": true,
+  "one_step_trajectory_states": 2,
+  "one_update_training_rows": 1,
+  "one_update_loss_finite": true,
+  "passed": true
+}
